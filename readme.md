@@ -15,3 +15,8 @@ mysql -u root -p
 ```
 sudo apt install libmysqlclient-dev
 ```
+## Export path
+```
+echo 'export MYSQL_CONFIG_PATH="/usr/bin/mysql_config"' >> ~/.bashrc
+source ~/.bashrc
+```
