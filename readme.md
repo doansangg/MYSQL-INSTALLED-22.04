@@ -11,3 +11,7 @@ mysql -u root
 ALTER USER 'root'@'localhost' IDENTIFIED BY mysql_native_password by/BY 'NewPasswordHere'
 mysql -u root -p
 ```
+## dev mysql
+```
+sudo apt install libmysqlclient-dev
+```
