@@ -7,4 +7,7 @@ sudo rm -rf /etc/mysql /var/lib/mysql
 sudo apt-get update
 sudo apt-get install -y mysql-server
 sudo systemctl start mysql
+mysql -u root
+ALTER USER 'root'@'localhost' IDENTIFIED BY mysql_native_password by/BY 'NewPasswordHere'
+mysql -u root -p
 ```
