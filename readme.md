@@ -1,3 +1,8 @@
+## Camera Yoosee
+```
+rtsp://192.168.1.5:554/onvif1
+```
+
 ## Installed Mysql on ubuntu-22.04, not error
 ```
 sudo apt-get remove --purge mysql-server mysql-client mysql-common
