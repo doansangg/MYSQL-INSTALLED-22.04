@@ -20,3 +20,12 @@ sudo apt install libmysqlclient-dev
 echo 'export MYSQL_CONFIG_PATH="/usr/bin/mysql_config"' >> ~/.bashrc
 source ~/.bashrc
 ```
+## Mout folder win into vmware 22.04
+```
+sudo nano /etc/fuse.conf
+# open #user_allow_other
+```
+### run
+```
+/usr/bin/vmhgfs-fuse .host:/ /home/boring/Documents/data-out -o subtype=vmhgfs-fuse,allow_other
+```
